@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <h1>{hello}</h1>
       <h2>{str}</h2>
+      <h1>Main branch testing</h1>
     </div>
   );
 }
