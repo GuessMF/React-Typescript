@@ -2,14 +2,14 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-const adf: number = 3;
+const hello: string = "Hello!";
+const str: string = "This is new React-typescript project";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <h2>This is new React-typescript project</h2>
-      {adf}
+      <h1>{hello}</h1>
+      <h2>{str}</h2>
     </div>
   );
 }
